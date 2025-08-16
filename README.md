@@ -25,7 +25,7 @@ EcoRide a pour mission de :
 ## Technologies utilisées
 
 * **Frontend :** Next.js, React, TailwindCSS, TypeScript
-* **Backend :** NestJS, TypeScript, PostgreSQL ou MongoDB, Prisma ORM
+* **Backend :** NextJs, TypeScript, PostgreSQL Prisma ORM
 * **Sécurité & API :** Auth JWT, bonnes pratiques de sécurisation des endpoints
 * **Outils :** Git, Docker (pour développement et déploiement)
 
@@ -34,6 +34,6 @@ EcoRide a pour mission de :
 Le projet suit une architecture **modulaire et maintenable** :
 
 * **Frontend** : pages et composants React avec Next.js
-* **Backend** : NestJS avec modules, controllers et services pour la logique métier
+* **Backend** : controllers et services pour la logique métier
 * **Base de données** : PostgreSQL avec ORM Prisma
 * Conçu pour être **scalable, sécurisé et performant**
