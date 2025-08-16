@@ -12,8 +12,8 @@ export default function Card({ title, content, src, alt, price }: CardProps) {
     return (
         <section className="bg-lightBrunEcoRide border border-greenEcoRide rounded-2xl shadow-md p-6 flex flex-col items-center gap-4 max-w-sm">
             <Image
-                src={src || "@/public/CardImage.svg"}
-                alt={alt || "defaultAlt"}
+                src={src || '@/public/CardImage.svg'}
+                alt={alt || 'defaultAlt'}
                 height={250}
                 width={250}
                 className="rounded-xl object-cover"

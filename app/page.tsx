@@ -1,6 +1,6 @@
-import Header from '@/components/containers/header'
-import Footer from '@/components/containers/footer'
-import Card from '@/components/containers/card'
+import Header from './components/containers/header'
+import Footer from './components/containers/footer'
+import Card from './components/containers/card'
 
 export default function Home() {
     const ClassNameH1 =

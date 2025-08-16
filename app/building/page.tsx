@@ -1,5 +1,5 @@
-import Footer from '@/components/containers/footer'
-import Header from '@/components/containers/header'
+import Footer from '../components/containers/footer'
+import Header from '../components/containers/header'
 
 export default function Page() {
     return (

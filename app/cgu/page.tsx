@@ -1,6 +1,6 @@
-import Footer from '@/components/containers/footer'
-import Header from '@/components/containers/header'
-import TextContent from '@/components/containers/textContent'
+import Footer from '../components/containers/footer'
+import Header from '../components/containers/header'
+import TextContent from '../components/containers/textContent'
 
 export default function Page() {
     const ClassNameH1 =
