@@ -92,8 +92,16 @@ export default function RegisterForm() {
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                 />
-                <Button label="S'inscrire" type="submit" style="mainButtonClassName" />
-                <Button label="Recommencer la saisie" type="reset" style="secondButtonClassName" />
+                <Button
+                    label="S'inscrire"
+                    type="submit"
+                    style="mainButtonClassName"
+                />
+                <Button
+                    label="Recommencer la saisie"
+                    type="reset"
+                    style="secondButtonClassName"
+                />
             </form>
         </section>
     )
