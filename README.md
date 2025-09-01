@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EcoRide 🌱
 
-## Getting Started
+**EcoRide** est une plateforme web et mobile de mobilité durable, conçue pour permettre aux utilisateurs de réserver et gérer des trajets écologiques facilement et en toute sécurité. L’application allie accessibilité, design responsive et respect des bonnes pratiques numériques.
 
-First, run the development server:
+## Objectif du projet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+EcoRide a pour mission de :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Encourager la mobilité écologique et responsable.
+- Offrir une interface simple et intuitive pour tous les utilisateurs.
+- Proposer un suivi clair des trajets et des véhicules disponibles.
+- Garantir la sécurité des données et le respect du RGPD.
+- Réduire l’empreinte environnementale numérique grâce à l’éco-conception.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Fonctionnalités principales
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Gestion des utilisateurs : inscription, connexion.
+- Consultation et réservation de véhicules.
+- Page Tarifs avec détail des offres et options de paiement.
+- Formulaire de contact pour support et assistance.
+- Dashboard admin pour gérer les véhicules, trajets et utilisateurs.
+- API sécurisée avec authentification et contrôle des accès.
+- Interface responsive et accessible (conforme RGAA).
 
-## Learn More
+## Technologies utilisées
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend :** Next.js, React, TailwindCSS, TypeScript
+- **Backend :** NestJS, TypeScript, PostgreSQL ou MongoDB, Prisma ORM
+- **Sécurité & API :** Auth JWT, bonnes pratiques de sécurisation des endpoints
+- **Outils :** Git, Docker (pour développement et déploiement)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Le projet suit une architecture **modulaire et maintenable** :
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend** : pages et composants React avec Next.js
+- **Backend** : NestJS avec modules, controllers et services pour la logique métier
+- **Base de données** : PostgreSQL avec ORM Prisma
+- Conçu pour être **scalable, sécurisé et performant**
