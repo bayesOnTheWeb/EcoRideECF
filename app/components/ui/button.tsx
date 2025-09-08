@@ -26,12 +26,12 @@ export default function Button({ label, type, style, redirect }: ButtonProps) {
 
   const router = useRouter();
 
-  function handleCLick() {
+  function redirectClick() {
     if (redirect) router.push(redirect);
   }
 
   return (
-    <button className={className} type={type} onClick={handleCLick}>
+    <button className={className} type={type} onClick={redirectClick}>
       {label}
     </button>
   );

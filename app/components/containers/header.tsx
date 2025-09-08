@@ -22,7 +22,7 @@ export default function Header() {
           label={"se connecter"}
           type={"button"}
           style={"mainButtonClassName"}
-          redirect={"/auth/signin"}
+          redirect={"/login"}
         />
         <Button
           label={"nos valeurs"}

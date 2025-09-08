@@ -91,7 +91,6 @@ const RegisterForm: React.FC = () => {
           label="Recommencer la saisie"
           type="reset"
           style="secondButtonClassName"
-      
         />
       </form>
     </section>

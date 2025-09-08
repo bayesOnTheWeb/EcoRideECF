@@ -3,7 +3,7 @@ export class UserClass {
   password: string;
   confirmPassword?: string;
   username: string;
-  status: number = 2
+  status: number = 2;
 
   constructor(
     email: string,

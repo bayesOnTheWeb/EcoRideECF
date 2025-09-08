@@ -14,15 +14,20 @@ export async function POST(req: NextRequest) {
       body.email,
       body.password,
       body.username,
-      body.confirmPassword
+      body.confirmPassword,
     );
 
     await services.validateInputs(user);
     await services.hashPassword(user);
     await repository.createUser(user);
 
-    return NextResponse.json({ message: "Compte utilisateur créé avec succès !" });
+    return NextResponse.json({
+      message: "Compte utilisateur créé avec succès !",
+    });
   } catch (error: any) {
-    return NextResponse.json({ error: error.message || "Erreur inconnue" }, { status: 400 });
+    return NextResponse.json(
+      { error: error.message || "Erreur inconnue" },
+      { status: 400 },
+    );
   }
 }
